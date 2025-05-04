@@ -88,12 +88,27 @@
 
 # lists
 
-fruits = ["apple", "banana", "orange", "grape"]
+# fruits = ["apple", "banana", "orange", "grape"]
 
-print(fruits[0]) # apple
+# print(fruits[0]) # apple
 
-fruits[0] = "mango" # change the first element to mango
-print(fruits[0]) # mango
+# fruits[0] = "mango" # change the first element to mango
+# print(fruits[0]) # mango
+
+# fruits.append("kiwi") # add kiwi to the end of the list
+
+# fruits.remove("banana") # remove banana from the list
+# for fruit in fruits:
+#     print(fruit) # mango , banana , orange , grape
+
+
+# tuples
+
+fruits = ("apple", "banana", "orange", "grape")
+
+# print(fruits[0]) # apple
+
+# fruits[0] = "mango" # error: 'tuple' object does not support item assignment
 
 for fruit in fruits:
-    print(fruit) # mango , banana , orange , grape
+    print(fruit) # apple , banana , orange , grape
