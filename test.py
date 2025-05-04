@@ -75,5 +75,25 @@
 
 # for loop count downt timer example 
 
-for i in range(10, 0, -1):
-    print(i)
+# for i in range(10, 0, -1):
+#     print(i)
+
+
+
+# lists , tuples , sets like arrays 
+
+#  lists => [] , tuples => () , sets => {}
+
+# lists mutable , tuples immutable , sets unordered and unique
+
+# lists
+
+fruits = ["apple", "banana", "orange", "grape"]
+
+print(fruits[0]) # apple
+
+fruits[0] = "mango" # change the first element to mango
+print(fruits[0]) # mango
+
+for fruit in fruits:
+    print(fruit) # mango , banana , orange , grape
