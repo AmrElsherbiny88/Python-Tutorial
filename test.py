@@ -65,8 +65,15 @@
 
 # while loop
 
-i = 0 
+# i = 0 
 
-while i < 10:
+# while i < 10:
+#     print(i)
+#     i += 1 # i = i + 1
+
+
+
+# for loop count downt timer example 
+
+for i in range(10, 0, -1):
     print(i)
-    i += 1 # i = i + 1
