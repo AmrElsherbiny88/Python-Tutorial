@@ -104,11 +104,17 @@
 
 # tuples
 
-fruits = ("apple", "banana", "orange", "grape")
+# fruits = ("apple", "banana", "orange", "grape")
 
-# print(fruits[0]) # apple
+# # print(fruits[0]) # apple
 
-# fruits[0] = "mango" # error: 'tuple' object does not support item assignment
+# # fruits[0] = "mango" # error: 'tuple' object does not support item assignment
 
-for fruit in fruits:
-    print(fruit) # apple , banana , orange , grape
+# for fruit in fruits:
+#     print(fruit) # apple , banana , orange , grape
+
+
+# sets like lists but unordered and unique no same elemets 
+
+# fruits = {"apple", "banana", "orange", "grape" , "grape"}
+# print(fruits) # apple , banana , orange , grape
