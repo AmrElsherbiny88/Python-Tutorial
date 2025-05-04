@@ -37,12 +37,26 @@
 
 # if statement
 
+# age = int(input("Enter your age: "))
+
+
+# if age < 18 :
+#     print("You are a child")
+# else: 
+#     print("You are an adult")
+
+
+
+
+# logic operators
+# and , or , not
+
+# and => &&    or => ||    not => !
+
 age = int(input("Enter your age: "))
+isStudent = input("Are you a student? (yes/no): ").lower() == "yes"
 
-
-if age < 18 :
-    print("You are a child")
-else: 
-    print("You are an adult")
-
-
+if age < 18 and isStudent:
+    print("You are a child and a student")
+elif age < 18 and not isStudent:
+    print("You are a child and not a student")
