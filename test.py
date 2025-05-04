@@ -16,8 +16,18 @@
 
 
 # typecasting 
-price = 30.5  # float variable
+# price = 30.5  # float variable
 
-price = int(price) # convert to int
+# price = int(price) # convert to int
 
-print(price) # 30
+# print(price) # 30
+
+
+
+# input default type  is string
+
+name = input("Enter your name: ") # input function will return string
+
+age = int(input("Enter your age: ")) # input function will return string and we convert it to int
+
+print (f"Hello {name} your age is {age}") 
