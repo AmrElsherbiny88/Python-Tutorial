@@ -26,8 +26,23 @@
 
 # input default type  is string
 
-name = input("Enter your name: ") # input function will return string
+# name = input("Enter your name: ") # input function will return string
 
-age = int(input("Enter your age: ")) # input function will return string and we convert it to int
+# age = int(input("Enter your age: ")) # input function will return string and we convert it to int
 
-print (f"Hello {name} your age is {age}") 
+# print (f"Hello {name} your age is {age}") 
+
+
+
+
+# if statement
+
+age = int(input("Enter your age: "))
+
+
+if age < 18 :
+    print("You are a child")
+else: 
+    print("You are an adult")
+
+
